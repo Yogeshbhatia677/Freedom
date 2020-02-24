@@ -53,7 +53,7 @@
             android:background="@drawable/edittext_bg"
             android:gravity="center_vertical"
 
-            android:onClick="stlog"
+
             android:text="   Options"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
