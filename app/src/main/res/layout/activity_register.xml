@@ -9,29 +9,32 @@
 
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="530dp"
         android:src="@drawable/free"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editText4"
-        android:layout_width="334dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="266dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="286dp"
         android:background="@drawable/edittext_bg"
         android:fontFamily="@font/josefinsansregular"
-        android:hint="Name"
         android:gravity="center_vertical"
+        android:hint="  Name"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,62 +45,62 @@
 
     <EditText
         android:id="@+id/editText5"
-        android:layout_width="334dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="266dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="47dp"
 
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="166dp"
         android:background="@drawable/edittext_bg"
-        android:hint="College"
         android:fontFamily="@font/josefinsansregular"
         android:gravity="center_vertical"
+        android:hint="  College"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572" />
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="200dp"
         android:layout_height="40dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="20dp"
 
 
+        android:layout_marginEnd="47dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/button_bg"
-        android:padding="10dp"
         android:fontFamily="@font/josefinsansregular"
+        android:padding="10dp"
         android:text="Countinue"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.44"
+
+
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-
-        app:layout_constraintVertical_bias="0.956" />
+        app:layout_constraintTop_toBottomOf="@+id/editText5" />
 
     <AutoCompleteTextView
         android:id="@+id/autocourse"
-        android:layout_width="334dp"
-        android:layout_height="53dp"
+        android:layout_width="266dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="232dp"
         android:background="@drawable/edittext_bg"
         android:fontFamily="@font/josefinsansregular"
-        android:hint="Course"
         android:gravity="center_vertical"
+        android:hint="  Course"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.598"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.678" />
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
