@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Freedom</string>
+
+    <string-array name="Occupation">
+        <item>Student</item>
+        <item>Professional</item>
+        <item>Vendor</item>
+    </string-array>
+
 </resources>

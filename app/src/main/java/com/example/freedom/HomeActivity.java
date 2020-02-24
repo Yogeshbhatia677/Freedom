@@ -1,8 +1,6 @@
 package com.example.freedom;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,12 +12,8 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-    }
 
 
-    public void stlog(View view) {
-        Intent intent = new Intent(HomeActivity.this, signupActivity.class);
-        startActivity(intent);
     }
 
 
