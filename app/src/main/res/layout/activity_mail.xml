@@ -32,7 +32,7 @@
         android:layout_marginBottom="286dp"
         android:background="@drawable/edittext_bg"
         android:gravity="center_vertical"
-        android:hint="  email"
+        android:hint="   email"
 
 
         android:textColor="#ffffff"
