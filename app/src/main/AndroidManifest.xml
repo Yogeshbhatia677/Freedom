@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".custom"></activity>
+        <activity android:name=".custom2"></activity>
+        <activity android:name=".custom" />
         <activity android:name=".vendoractivity" />
         <activity android:name=".professionalregister2" />
         <activity android:name=".Professionalregister" />
