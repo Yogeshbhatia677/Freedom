@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".Register">
+    tools:context=".vendoractivity">
 
 
     <ImageView
@@ -54,51 +54,27 @@
         android:background="@drawable/edittext_bg"
         android:fontFamily="@font/josefinsansregular"
         android:gravity="center_vertical"
-        android:hint="  College"
+        android:hint="  Location"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.431"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/autocourse" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="20dp"
-
-
-        android:layout_marginEnd="47dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/button_bg"
-        android:fontFamily="@font/josefinsansregular"
-        android:padding="10dp"
-        android:text="Countinue"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
-
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
     <AutoCompleteTextView
         android:id="@+id/autocourse"
         android:layout_width="266dp"
-        android:layout_height="40dp"
+        android:layout_height="38dp"
         android:layout_marginStart="47dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="47dp"
         android:background="@drawable/edittext_bg"
         android:fontFamily="@font/josefinsansregular"
         android:gravity="center_vertical"
-        android:hint="  Course"
+        android:hint="  Category"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.598"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
-
+        app:layout_constraintTop_toBottomOf="@+id/editText5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
