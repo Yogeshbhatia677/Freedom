@@ -11,8 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".password"></activity>
-        <activity android:name=".mail" />
+        <activity android:name=".vendoractivity"></activity>
+        <activity android:name=".professionalregister2" />
         <activity android:name=".Professionalregister" />
         <activity android:name=".Register" />
         <activity android:name=".HomeActivity" />
