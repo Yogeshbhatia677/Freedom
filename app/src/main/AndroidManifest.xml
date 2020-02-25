@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Professionalregister"></activity>
+        <activity android:name=".mail"></activity>
+        <activity android:name=".Professionalregister" />
         <activity android:name=".Register" />
         <activity android:name=".signupActivity" />
         <activity android:name=".HomeActivity" />
