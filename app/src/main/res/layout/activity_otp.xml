@@ -37,109 +37,111 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_mail_black_24dp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="95dp"
-        android:layout_marginTop="328dp"
-        android:layout_marginEnd="95dp"
-        android:layout_marginBottom="359dp"
-        android:fontFamily="@font/josefinsansregular"
-        android:text="ENTER YOUR OTP"
-        android:textColor="#ffffff"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView2"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="95dp"-->
+    <!--        android:layout_marginTop="328dp"-->
+    <!--        android:layout_marginEnd="95dp"-->
+    <!--        android:layout_marginBottom="359dp"-->
+    <!--        android:fontFamily="@font/josefinsansregular"-->
+    <!--        android:text="ENTER YOUR OTP"-->
+    <!--        android:textColor="#ffffff"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.41" />-->
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="95dp"
-        android:layout_marginTop="328dp"
-        android:layout_marginEnd="95dp"
-        android:layout_marginBottom="359dp"
-        android:fontFamily="@font/josefinsansregular"
-        android:text="sent to your mail"
-        android:textColor="#ffffff"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.72" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView3"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="95dp"-->
+    <!--        android:layout_marginTop="328dp"-->
+    <!--        android:layout_marginEnd="95dp"-->
+    <!--        android:layout_marginBottom="359dp"-->
+    <!--        android:fontFamily="@font/josefinsansregular"-->
+    <!--        android:text="sent to your mail"-->
+    <!--        android:textColor="#ffffff"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="1.0" />-->
 
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:width="44dp"
-        android:height="51dp"
-        android:background="#ffffff"
-        android:inputType="numberPassword"
-        android:maxLength="1"
+    <!--    <EditText-->
+    <!--        android:id="@+id/editText"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:width="44dp"-->
+    <!--        android:height="51dp"-->
+    <!--        android:background="#ffffff"-->
+    <!--        android:inputType="numberPassword"-->
+    <!--        android:maxLength="1"-->
 
-        android:nextFocusRight="@+/editText2"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="434dp" />
+    <!--        android:nextFocusRight="@+/editText2"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="151dp"-->
+    <!--        tools:layout_editor_absoluteY="434dp" />-->
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="73dp"
-        android:layout_marginTop="388dp"
-        android:layout_marginEnd="242dp"
+    <!--    <EditText-->
+    <!--        android:id="@+id/editText2"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="73dp"-->
+    <!--        android:layout_marginTop="388dp"-->
+    <!--        android:layout_marginEnd="242dp"-->
 
-        android:layout_marginBottom="281dp"
-        android:width="44dp"
-        android:height="51dp"
-        android:background="#ffffff"
-        android:inputType="numberPassword"
-        android:maxLength="1"
-        android:nextFocusRight="@+/editText3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <!--        android:layout_marginBottom="281dp"-->
+    <!--        android:width="44dp"-->
+    <!--        android:height="51dp"-->
+    <!--        android:background="#ffffff"-->
+    <!--        android:inputType="numberPassword"-->
+    <!--        android:maxLength="1"-->
+    <!--        android:nextFocusRight="@+/editText3"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.096"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="1.0" />-->
 
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:width="44dp"
-        android:height="51dp"
-        android:background="#ffffff"
-        android:inputType="numberPassword"
-        android:maxLength="1"
+    <!--    <EditText-->
+    <!--        android:id="@+id/editText3"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:width="44dp"-->
+    <!--        android:height="51dp"-->
+    <!--        android:background="#ffffff"-->
+    <!--        android:inputType="numberPassword"-->
+    <!--        android:maxLength="1"-->
 
-        android:nextFocusRight="@+/editText3"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="211dp"
-        tools:layout_editor_absoluteY="434dp" />
+    <!--        android:nextFocusRight="@+/editText3"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="211dp"-->
+    <!--        tools:layout_editor_absoluteY="434dp" />-->
 
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:width="44dp"
-        android:height="51dp"
-        android:background="#ffffff"
-        android:inputType="numberPassword"
-        android:maxLength="1"
+    <!--    <EditText-->
+    <!--        android:id="@+id/editText4"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:width="44dp"-->
+    <!--        android:height="51dp"-->
+    <!--        android:background="#ffffff"-->
+    <!--        android:inputType="numberPassword"-->
+    <!--        android:maxLength="1"-->
 
-        android:nextFocusRight="@+/editText2"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="434dp" />
+    <!--        android:nextFocusRight="@+/editText2"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="270dp"-->
+    <!--        tools:layout_editor_absoluteY="434dp" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
